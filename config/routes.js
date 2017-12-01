@@ -3,7 +3,7 @@ module.exports = function(app){
 
   app.get('/users', users.getAll);
 
-  app.get('/user/:id', users.getOne);
+  app.get('/users/:id', users.getOne);
 
   app.post('/users', users.create);
 
